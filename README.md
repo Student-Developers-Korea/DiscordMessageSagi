@@ -1,2 +1,24 @@
 # Discord Message Sagi
-사용방법 : 디스코드 열어서 Ctrl + Shift + I => index.js 파일 코드 전체 넣기 => message.fetch() 써서 아이디 알기 => message.edit() 함수로 메시지 수정
+
+## Usage
+
+**Using [createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)**
+
+```js
+const script = document.createElement('script')
+script.src = 'https://cdn.jsdelivr.net/gh/Student-Developers-Korea/DiscordMessageSagi@latest/index.js'
+
+document.head.appendChild(script)
+```
+
+**Using [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)**
+
+```js
+import('https://cdn.jsdelivr.net/gh/Student-Developers-Korea/DiscordMessageSagi@latest/index.js')
+```
+
+**Using [jQuery](https://jquery.com/)**
+
+```js
+$.get('https://cdn.jsdelivr.net/gh/Student-Developers-Korea/DiscordMessageSagi@latest/index.js')
+```
